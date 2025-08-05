@@ -1,0 +1,31 @@
+# === 🛡️ Sécurité : secrets à ne jamais versionner
+*.env
+
+# === 🐍 Python : fichiers générés
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# === 🧪 Outils de test (pytest, coverage, etc.)
+.pytest_cache/
+coverage/
+htmlcov/
+
+# === 💻 Environnement virtuel local (Windows/Linux/macOS)
+env/
+venv/
+.monvenv/
+monvenv/
+ENV/
+.venv/
+
+# === 📦 Dépendances front-end (si tu ajoutes du JS plus tard avec npm/yarn)
+node_modules/
+dist/
+build/
+
+# === 🔧 Fichiers système
+.DS_Store
+Thumbs.db
